@@ -1,0 +1,35 @@
+{
+  "name": "minimalistFullStackJS",
+  "version": "1.0.0",
+  "description": "Minimal starter kit for full stack JavaScript projects: NodeJs/ReactJs/MongoDB",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielAnzaldo/minimalistFullStackJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielAnzaldo/minimalistFullStackJS/issues"
+  },
+  "homepage": "https://github.com/gabrielAnzaldo/minimalistFullStackJS#readme",
+  "devDependencies": {
+    "babel-eslint": "8.2.2",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.7.0"
+  },
+  "dependencies": {
+    "ejs": "2.5.8",
+    "express": "4.16.3"
+  }
+}
