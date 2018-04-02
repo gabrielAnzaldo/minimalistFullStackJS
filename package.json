@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node"
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack --mode=development -wp"
   },
   "repository": {
     "type": "git",
@@ -23,16 +24,23 @@
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-eslint": "8.2.2",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-class-properties": "6.24.1",
     "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
     "eslint": "4.19.1",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-import": "2.10.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.7.0"
+    "eslint-plugin-react": "7.7.0",
+    "webpack": "4.4.1",
+    "webpack-cli": "2.0.13"
   },
   "dependencies": {
     "ejs": "2.5.8",
     "express": "4.16.3",
-    "pm2": "2.10.2"
+    "pm2": "2.10.2",
+    "react": "16.3.0",
+    "react-dom": "16.3.0"
   }
 }
