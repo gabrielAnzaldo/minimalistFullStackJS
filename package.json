@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
-    "webpack": "webpack --mode=development -wp"
+    "webpack": "webpack --mode=development -wd"
   },
   "repository": {
     "type": "git",
